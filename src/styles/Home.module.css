@@ -276,3 +276,43 @@
     transform: rotate(0deg);
   }
 }
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: solid 1px;
+}
+
+.brand2 {
+  /* width: 100px; */
+  padding-right: 4em;
+  align-items: center;
+}
+.brand2 input {
+  background-color: white;
+  background-image: url(https://www.w3schools.com/css/searchicon.png);
+  background-position: 130px 4px;
+  background-repeat: no-repeat;
+  background-size: 10px;
+  /* padding-left: 40px; */
+}
+
+.brand {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.brand h1{
+  padding: 0 10px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border: solid 1px;
+  padding: 1em;
+}
